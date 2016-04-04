@@ -1,17 +1,23 @@
 fileFormatVersion: 2
-guid: 5427ae6c4afe9b44892cd95ebe3e6781
+guid: c2b43db55ba7c46f5a69ecb06bc52d3f
+timeCreated: 1459180243
+licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Skyball_WithCap
-    4300002: Skyball+WithCap
-    4300004: Plane001
-    4300006: Sphere001
-    11100000: //RootNode
+    100000: Camera
+    100002: Camera.001
+    100004: Cube.001
+    100006: //RootNode
+    100008: Lamp
+    400000: Camera
+    400002: Camera.001
+    400004: Cube.001
+    400006: //RootNode
+    400008: Lamp
+    2300000: Cube.001
+    3300000: Cube.001
+    4300000: Cube.001
   materials:
     importMaterials: 1
     materialName: 0
@@ -35,7 +41,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -49,7 +55,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 0
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -69,7 +75,7 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
+  animationType: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
